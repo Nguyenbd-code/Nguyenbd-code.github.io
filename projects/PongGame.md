@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/Pong Image.jfif
+image: 
 title: "Pong Game"
 date: 2022
 published: true
