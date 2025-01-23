@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "Evolving Skills in Software Engineering: My Future Aspirations"
 # All dates must be YYYY-MM-DD format!
-date: 2024-09-12
+date: 2025-01-23
 published: true
 labels:
   - Software Engineering
