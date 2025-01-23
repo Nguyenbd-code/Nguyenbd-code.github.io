@@ -15,15 +15,7 @@ summary: "A simple Pong game created using HTML, CSS, and JavaScript."
 
 Pong is one of the earliest arcade video games, and this project recreates it using basic web development technologies. The game is interactive and playable directly in the browser. It demonstrates fundamental coding concepts such as animations, user input, and collision detection.
 
-Here’s the game:
-
-<div>
-  <canvas id="pongCanvas" width="800" height="400"></canvas>
-</div>
-
-<hr>
-
-### Game Code
+## Game Code
 
 ```html
 <!DOCTYPE html>
@@ -165,5 +157,9 @@ Here’s the game:
 </body>
 </html>
 ```
+
+## How to Play
+- Use your mouse to move the player's paddle up and down.
+- Prevent the ball from passing your paddle while trying to get it past the AI.
 
 Source: <a href="https://github.com/your-username/pong-game"><i class="large github icon"></i>your-username/pong-game</a>
