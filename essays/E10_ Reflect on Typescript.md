@@ -11,7 +11,7 @@ labels:
   - Learning
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/typescript/typescript_logo.jpg">
+<img width="200px" class="rounded float-start pe-4" src="../img/typescriptlogo.png">
 
 *TypeScript: a superset of JavaScript that adds static types.*
 
