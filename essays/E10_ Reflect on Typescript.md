@@ -23,7 +23,7 @@ TypeScript's main advantage over JavaScript is its type safety, which can signif
 
 ## Benefits of WODs (Workouts of the Day)
 
-When it comes to learning through WODs, there are notable benefits. WODs can reinforce concepts, improve problem-solving skills, and provide practical experience. However, the effectiveness of WODs can vary depending on their difficulty and your familiarity with the concepts, which might sometimes make them feel overwhelming or stressful.
+A short introduction on WODs, I'm not too familar with typescript so when I had to do this as a WOD I was nervous but It also help me grow as it put me in a situation where I was uncomfortable. When it comes to learning through WODs, there are notable benefits. WODs can reinforce concepts, improve problem-solving skills, and provide practical experience. However, the effectiveness of WODs can vary depending on their difficulty and your familiarity with the concepts, which might sometimes make them feel overwhelming or stressful. This can prove very useful when I am getting interviewed for my job or have to do a project that impacts people.
 
 ## Personal Experience
 
