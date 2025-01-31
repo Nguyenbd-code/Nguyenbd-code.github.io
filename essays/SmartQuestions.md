@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "Understanding the Impact of Question Quality on Stack Overflow"
 # All dates must be YYYY-MM-DD format!
-date: 2024-09-12
+date: 2025-01-30
 published: true
 labels:
   - Software Engineering
