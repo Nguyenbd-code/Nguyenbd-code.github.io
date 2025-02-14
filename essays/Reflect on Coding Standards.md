@@ -15,7 +15,7 @@ Many people often dismiss coding standards as trivial, I firmly believe that cod
 
 Coding standards may seem like a set of rules focused on aesthetics. However, these standards promote consistency, readability, and maintainability across codebases. When everyone adheres to the same guidelines, the resulting code feels like a shared language, a common ground that makes collaboration smoother and debugging more efficient.
 
-Moreover, coding standards often serve as a form of implicit documentation. These guidelines illustrate how code should be structured, making it easier to understand not just *what* the code does, but *how* it accomplishes its tasks. In this way, they transform routine coding tasks into valuable learning experiences.
+Moreover, coding standards often serve as a form of implicit documentation. These guidelines illustrate how code should be structured, making it easier to understand not just what the code does, but how it accomplishes its tasks. In this way, they transform routine coding tasks into valuable learning experiences.
 
 ## ESLint with VSCode
 
