@@ -10,7 +10,7 @@ labels:
   - Web Development
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/bootstrap-icons.svg">
+<img width="200px" class="rounded float-start pe-4" src="../img/bootstrap.jfif">
 
 *UI Frameworks: Streamlining web development with pre-built tools.*
 
