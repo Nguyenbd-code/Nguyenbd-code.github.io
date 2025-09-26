@@ -2,7 +2,7 @@
 layout: essay
 type: essay
 title: Coding Standards
-date: 2025-06-27
+date: 2025-09-25
 published: true
 labels:
   - Software Engineering
