@@ -2,7 +2,7 @@
 layout: essay
 type: essay
 title: "The Power of UI Frameworks: Balancing Complexity and Productivity"
-date: 2025-07-06
+date: 2025-10-09
 published: true
 labels:
   - UI Frameworks
