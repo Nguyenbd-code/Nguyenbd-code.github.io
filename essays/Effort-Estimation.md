@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "The Power of UI Frameworks: Balancing Complexity and Productivity"
+title: "Reflection on Effort Estimation and Tracking"
 date: 2025-12-14
 published: true
 labels:
