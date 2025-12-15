@@ -1,6 +1,14 @@
-# Reflection on Effort Estimation
-
-December 14, 2025
+---
+layout: essay
+type: essay
+title: "The Power of UI Frameworks: Balancing Complexity and Productivity"
+date: 2025-12-14
+published: true
+labels:
+  - Project
+  - Typescript
+  - Web Development
+---
 
 ### Project Context
 
