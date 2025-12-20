@@ -39,8 +39,7 @@ HTML, CSS (Bootstrap), Vanilla JavaScript
 
 ## Snapshot
 
-<img class="img-fluid" src="../img/todo/To-do-list">
-*Dashboard after successful login*
+<img class="img-fluid" src="../img/todo/To-do-list.png">
 
 **Adding a new task:**
 ```javascript
