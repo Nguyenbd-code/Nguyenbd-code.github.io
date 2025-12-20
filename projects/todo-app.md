@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/todo/main-screen.png  <!-- Upload your own screenshot here -->
+image: img/todo/todologo.png
 title: "Vanilla JavaScript To-Do List App"
 date: 2025-11-15
 published: true
@@ -37,6 +37,11 @@ HTML, CSS (Bootstrap), Vanilla JavaScript
 
 ## Code Highlights
 
+## Snapshot
+
+<img class="img-fluid" src="../img/todo/To-do-list">
+*Dashboard after successful login*
+
 **Adding a new task:**
 ```javascript
 function addTask(text) {
@@ -45,3 +50,4 @@ function addTask(text) {
   saveTasks();
   renderTasks();
 }
+
