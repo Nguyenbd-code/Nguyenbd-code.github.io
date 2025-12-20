@@ -1,9 +1,8 @@
 ---
 layout: essay
 type: essay
-title: "Reflections on Using AI in ICS 314"
-# All dates must be YYYY-MM-DD format!
-date: 2025-12-16
+title: "Harnessing AI in Software Engineering: Reflections from a Developer's Journey"
+date: 2025-12-19
 published: true
 labels:
   - AI
@@ -12,80 +11,77 @@ labels:
   - Reflection
 ---
 
-# Reflections on AI in ICS 314
+# Harnessing AI in Software Engineering: Reflections from a Developer's Journey
 
 ## I. Introduction
 
-AI tools are quickly becoming essential for developers, giving instant help with errors, explanations, and new ideas that used to take hours of searching through docs or forums. In a course like ICS 314, focused on practical web development with JavaScript/TypeScript, React, Bootstrap, and strong emphasis on clean code through ESLint and timed WODs, AI can speed things up—but only if used thoughtfully.
+In today's fast-paced world of software development, AI tools have emerged as powerful allies, offering instant insights into bugs, explanations of complex concepts, and fresh ideas that once required endless digging through documentation or online forums. When building web applications with technologies like JavaScript/TypeScript, React, and Bootstrap—while prioritizing clean, maintainable code—AI can accelerate progress, but only when wielded with intention. Overuse risks undermining the deep learning that comes from hands-on problem-solving.
 
-I used AI quite a bit throughout the semester, mainly **ChatGPT** (GPT-4o) and sometimes **GitHub Copilot**. I leaned on it for debugging tough errors, clarifying confusing messages, and getting ideas for edge cases or tests. That said, I tried to keep it in check—probably using it for about two out of every five problems—so I still got the full benefit of figuring things out myself.
+Throughout my recent dive into practical web development, I frequently turned to AI assistants like ChatGPT (GPT-4o) and GitHub Copilot. They helped with debugging elusive errors, unpacking cryptic messages, and brainstorming test cases. However, I made a conscious effort to limit reliance—using AI for roughly two out of every five challenges—to ensure I retained the benefits of independent discovery.
 
-## II. Personal Experience with AI
+## II. Personal Experiences with AI
 
-Here’s a breakdown of where I did (and didn’t) turn to AI:
+Here's how AI fit into various aspects of my coding workflow, from practice exercises to full projects:
 
-1. **Experience WODs**  
-   I usually tackled Experience WODs—like the BrowserHistory or Bootstrap layout ones—without AI at first. About 40% of the time, though, I’d get stuck on a stubborn error and ask ChatGPT to help diagnose it. For instance, when chaining Underscore functions led to an undefined property error, I pasted the code and asked why it was happening even though the data seemed fine. It pointed out I needed better null checks, which got me unstuck fast without handing me the whole answer.
+1. **Practice Exercises**  
+   When working on standalone challenges, such as simulating browser history navigation or designing responsive layouts, I often started without AI. In about 40% of cases, persistent errors prompted me to seek help. For example, when chaining functional operations in Underscore.js resulted in an undefined property access, I shared the code snippet with ChatGPT. It suggested adding null checks, resolving the issue quickly without spoiling the solution.
 
-2. **In-class Practice WODs**  
-   I did not use AI during in-class practice WODs. These are all about raw repetition—building speed and muscle memory through trial and error. Pulling up AI would have slowed me down and taken away from the real practice, so I forced myself to work through issues manually, even if it meant finishing fewer reps.
+2. **Timed Coding Drills**  
+   I avoided AI entirely during high-pressure, timed exercises designed to build speed and intuition. These mimic real-world scenarios like coding interviews, where external aids aren't available. Relying on prior preparation honed my ability to think on my feet.
 
-3. **In-class WODs**  
-   No AI here either. Timed WODs simulate real pressure situations, like technical interviews, where you can’t pause to query a model. I prepared ahead and relied purely on what I’d practiced.
+3. **Reflective Writing**  
+   For essays and documentation, AI served sparingly—to refine phrasing or ensure logical flow. The core ideas remained my own, with AI acting as a subtle editor to enhance clarity.
 
-4. **Essays**  
-   I only reached for AI a handful of times, mostly to smooth out phrasing or check if a paragraph flowed well. The ideas and arguments were always mine—I just wanted the writing to come across clearly and professionally.
+4. **Building a Full Application**  
+   In developing Study Buddy—a platform for university students to connect for study sessions via profiles, course matching, scheduling, and invitations—AI assisted in about 40% of complex sections, primarily for debugging and testing. Prompts like "Why is this React useEffect hook causing an infinite loop with these dependencies?" or "Propose Jest tests for overlapping availability in a matching algorithm" uncovered subtle flaws and strengthened coverage. I always adapted suggestions to fit my codebase.
 
-5. **Final Project**  
-   My final project, Study Buddy, is a web app that lets UH students connect with classmates in the same courses to set up study sessions. It has user profiles, course selection, availability scheduling, matching, and invitations. I used AI in roughly 40% of the trickier parts, almost exclusively for debugging and testing. Common prompts were “What’s causing this useEffect infinite loop with these dependencies?” or “Suggest some Jest edge cases for partial availability overlaps in matching.” It caught sneaky issues fast and helped me write more solid tests, but I always tweaked its suggestions to match my actual code.
+5. **Deepening Conceptual Understanding**  
+   After initial tutorials, if a topic like React's useMemo versus useCallback remained fuzzy, I'd query AI for practical examples highlighting performance impacts. This provided alternative perspectives that complemented official resources.
 
-6. **Learning a concept / tutorial**  
-   After screencasts, if something still didn’t click, I’d ask ChatGPT for another angle. For example, I had it break down useMemo versus useCallback with real scenarios where the choice actually impacts performance. Those follow-up explanations often made things clearer than re-reading the official docs.
+6. **Community Interactions**  
+   Before contributing to discussions or forums, I'd occasionally verify details with AI—such as React Strict Mode's double-rendering behavior—to avoid misinformation.
 
-7. **Answering a question in class or in Discord**  
-   Occasionally, before jumping in on Discord, I’d double-check a detail with AI—like how React Strict Mode doubles renders in dev mode—to make sure I wasn’t spreading wrong info.
+7. **Crafting Effective Questions**  
+   To get better responses from peers, I refined my queries using AI, adding context or clarifying errors for more targeted feedback.
 
-8. **Asking or answering a smart-question**  
-   A few times I refined a question with AI, pasting my draft and asking it to add more context or clarify the error description. That usually got me better, faster help from the community.
+8. **Exploring Code Examples**  
+   Starting with my own implementations of libraries like Underscore's .pluck, I'd use AI to probe edge cases, such as handling missing properties or irregular data structures.
 
-9. **Coding example (e.g., using Underscore .pluck)**  
-   I wrote examples myself first, then sometimes asked about edge cases—like behavior with missing properties or sparse arrays—to make my understanding more complete.
+9. **Code Walkthroughs**  
+   For intricate code snippets, AI provided step-by-step breakdowns, helping demystify convoluted logic.
 
-10. **Explaining code**  
-    For dense walkthrough code or my own complicated sections, I’d feed it to ChatGPT and ask for a step-by-step walkthrough. It really helped untangle logic I was struggling to follow.
+10. **Writing Code**  
+    I handled most coding myself, reserving AI for minor syntax corrections or when completely stalled—never for generating entire modules.
 
-11. **Writing code**  
-    I did almost all my own coding. AI was only a last resort for quick syntax fixes or when an error completely blocked me—never for writing whole functions or components.
+11. **Documentation**  
+    Comments and docs were largely self-authored, with AI occasionally suggesting wording for complex sections.
 
-12. **Documenting code**  
-    I wrote comments and docs myself most of the time. Occasionally I’d ask for phrasing ideas on tricky error-handling parts, but that was rare.
+12. **Quality Assurance**  
+    AI proved invaluable here, used in about two-fifths of tasks. It interpreted linter warnings, debugged console outputs, and generated test ideas, encouraging thorough validation.
 
-13. **Quality assurance**  
-    This was where AI shone for me—probably used it two out of five times for QA. Pasting ESLint warnings, console errors, or asking for test ideas saved tons of time and pushed me to cover corners I might have skipped.
+13. **Deployment and Beyond**  
+    For issues like routing glitches on platforms such as Vercel, or additional test scenarios for unique features, AI offered quick resolutions.
 
-14. **Other uses**  
-    AI came in handy for deployment snags (like weird routing issues on Vercel) and extra test brainstorming for things like handling duplicate session requests.
+## III. Impact on Learning and Skill Development
 
-## III. Impact on Learning and Understanding
+By using AI judiciously, I cultivated a sharper debugging approach and greater awareness of potential pitfalls, leading to more robust code. The rapid feedback loop encouraged systematic problem decomposition, while self-imposed limits ensured I grappled with challenges enough to internalize lessons. Ultimately, this balance enhanced my practical software engineering skills without eroding critical thinking.
 
-Using AI selectively really boosted my debugging mindset and made me think harder about edge cases, which translated into cleaner, more reliable code. Quick diagnoses trained me to break down problems systematically. Since I didn’t over-rely on it, I still spent plenty of time wrestling with issues myself, and that struggle is what solidified the concepts for me. Overall, it deepened my practical grasp of software engineering without dulling the critical thinking part.
+## IV. Real-World Applications
 
-## IV. Practical Applications
-
-I’ve carried this same balanced approach into personal projects and prep for internships—using AI mainly as a debugging and testing aid. It feels a lot like how pros use Copilot or similar tools: great for speeding up the grunt work while keeping the architecture and decisions firmly in human control.
+This moderated AI strategy has extended to personal projects and internship preparations, mirroring professional practices where tools like Copilot streamline routine tasks, leaving humans to focus on high-level design and innovation.
 
 ## V. Challenges and Opportunities
 
-The main hurdles were getting prompts right to avoid bad advice and fighting the urge to use AI too often. Sometimes it suggested fixes that worked but weren’t ideal, forcing me to verify everything. On the flip side, there’s huge potential for courses to teach prompt crafting for debugging or position AI as a specialized assistant—maybe even with guided exercises on using it effectively.
+Key challenges included crafting precise prompts to elicit accurate advice and resisting over-dependence. AI outputs sometimes proposed suboptimal fixes, necessitating verification. Conversely, opportunities abound: educational programs could incorporate prompt engineering for debugging, or design exercises that integrate AI as a collaborative tool.
 
-## VI. Comparative Analysis
+## VI. Comparing Approaches
 
-The classic ICS 314 setup—screencasts, solo practice, timed WODs—forces you to internalize material through effort and repetition, which builds lasting confidence. Layering in moderate AI help accelerates feedback on errors and exposes you to more test scenarios faster. Together, they complement each other well: traditional methods give depth, AI adds breadth and efficiency.
+Traditional learning methods—through tutorials, repetitive practice, and timed challenges—foster deep mastery via effort and iteration. Integrating AI adds efficiency, providing quick error insights and diverse test ideas. The synergy is powerful: conventional techniques build foundational strength, while AI expands exposure and speed.
 
-## VII. Future Considerations
+## VII. Looking Ahead
 
-As models get better at context and accuracy, AI will probably become a standard sidekick in software engineering classes—maybe even integrated for instant, reliable debugging feedback. The trick will be setting guidelines that promote smart, limited use so students still hone independent skills that employers actually need.
+As AI models advance in contextual understanding and reliability, they'll likely become staples in software engineering education, perhaps offering tailored debugging support. The key will be establishing guidelines that encourage purposeful use, ensuring learners develop autonomous problem-solving skills valued in industry.
 
 ## VIII. Conclusion
 
-My experience with AI in ICS 314 felt like having a helpful junior pair-programmer: great for spotting bugs and brainstorming tests when I needed it, but never taking the wheel. It let me deliver a solid Study Buddy app while preserving the course’s core value of personal mastery. Going forward, I think explicitly teaching targeted AI techniques—like crafting strong debugging prompts—would help everyone strike the right balance between tool assistance and real skill-building.
+Incorporating AI into my software engineering journey felt like partnering with a capable assistant: excellent for bug-hunting and test ideation, but always in a supporting role. This approach yielded a polished application like Study Buddy while upholding the essence of skill-building through personal effort. Moving forward, integrating targeted AI training—such as effective prompting techniques—could empower more developers to leverage these tools without compromising growth.
