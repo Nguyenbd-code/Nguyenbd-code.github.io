@@ -45,12 +45,8 @@ Next.js, React, TypeScript, Bootstrap, Prisma, PostgreSQL, Google OAuth, Playwri
 
 ## Screenshots
 
-![Landing Page After Login](img/studybuddy/landing-after-login-page.png)
-
+<img class="img-fluid" src="../img/studybuddy/landing-after-login-page.png">
 *Dashboard after successful login*
 
-![Calendar View](img/studybuddy/calender.png)
-
+<img class="img-fluid" src="../img/studybuddy/calender.png">
 *Calendar showing available study sessions*
-
-![Registration Page](img/studybuddy/register-page.png)
