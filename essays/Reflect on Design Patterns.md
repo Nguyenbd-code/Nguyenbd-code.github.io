@@ -1,53 +1,89 @@
 ---
 layout: essay
 type: essay
-title: "Design Patterns I Actually Used in ICS 314 (and why they matter)"
-date: 2025-12-4
+title: "Design Patterns That Saved Our Team Project"
+date: 2025-12-19
+published: true
 labels:
-  - ICS 314
   - Software Engineering
   - Design Patterns
-  - Team Project
+  - Team Development
+  - JavaScript
+  - TypeScript
 ---
+# Design Patterns That Saved Our Team Project
 
-# Design Patterns I Actually Used in ICS 314  
-(and why they matter)
+## I. Introduction
 
-Before this class I thought design patterns were just something you memorize for interviews.  
-Three weeks into our team project Study Buddy (a site that lets UH students create and join real-time study sessions), I now know better. They’re the reason our code didn’t turn into complete spaghetti.
+As a junior developer still early in my software engineering journey, I used to think design patterns were mostly academic—things professors and interviewers talk about, but rarely something you'd actually need in real code. That changed completely during a recent team project.
 
-We’re building a Next.js + TypeScript app where students can post “ICS 314 tomorrow 6pm Sinclair Library, need 3 people” and others can join instantly. Real-time updates, notifications, recurring sessions, location filtering—the usual ICS 314 chaos.
+Our assignment was to build *Study Buddy*, a real-time web app that helps university students create and join study sessions. Users can post details like course, time, location, and how many people they need, while others join instantly and see live updates. We built it with Next.js and TypeScript, adding features like recurring sessions, location filtering, and notifications—all while working in a small team on a tight deadline.
 
-Here are the patterns we actually ended up using in our real codebase.
+At first, we coded quickly without much structure. But as features piled up, the code started getting messy: duplicated logic, hard-to-fix bugs, and confusion when multiple people worked on the same files. That's when we turned to design patterns—not because we wanted to sound fancy, but because they solved real problems we were facing. The patterns we ended up using made our lives easier and kept the project from falling apart.
 
-### Observer
-When someone joins or leaves a session, every participant needs to see the change immediately.  
-We made each session a RxJS `BehaviorSubject` and wrapped it in a `useSession(sessionId)` hook. Every client subscribes once. No polling, no stale data, no manual state passing. It just works.
+## II. Key Design Patterns We Applied
 
-### Command
-People kept accidentally clicking “Leave” and begging to be added back.  
-We turned Join/Leave into Command objects with `execute()` and `undo()`. Now undoing a mistake is literally one line. Saved us so many Slack messages.
+### 1. Observer Pattern (via RxJS)
 
-### Factory
-We have one-time study sessions and recurring weekly groups. Instead of checking `if (session.type === 'recurring')` everywhere, we use a `SessionFactory` that returns the correct class (both implement the same interface). The rest of the code doesn’t care.
+Real-time updates are essential: when someone joins or leaves a session, everyone needs to see it immediately.
 
-### Strategy
-Users want sessions sorted different ways: closest location, same major, earliest time.  
-We wrote three `MatchingStrategy` classes and swap them with a single setting. Clean separation, easy to extend.
+We used RxJS `BehaviorSubject` for each session and created a custom hook `useSession(sessionId)` that components could subscribe to. Changes pushed automatically—no manual refreshes or complex state management. This made the live collaboration feel smooth and prevented a lot of stale data bugs.
 
-### Singleton
-Our notification service was firing twice when someone had multiple tabs open.  
-Made it a module-scoped singleton. Problem gone.
+### 2. Command Pattern
 
-### Facade
-Our components were importing five different hooks and services. We created one `useStudyBuddy(sessionId)` facade that returns everything a page needs: session data, join/leave functions, host status, etc. Component files got way shorter and way more readable.
+Users sometimes accidentally clicked “Leave Session” and then asked to be let back in. Undoing that wasn't easy in our real-time setup.
 
-### Decorator
-Official tutoring-center sessions get a “featured” badge, power users get a “verified host” checkmark.  
-We wrap the base session object with decorators at runtime instead of adding flags everywhere.
+We turned Join and Leave actions into Command objects with `execute()` and `undo()` methods. Now reversing a mistake is just one line of code. It saved us from constant back-and-forth in our team chat.
 
-These aren’t theoretical. They’re in our actual repo, solving real problems we hit while building Study Buddy.
+### 3. Factory Pattern
 
-ICS 314 showed me design patterns aren’t about sounding smart.  
-They’re tools that make three people on a tight deadline able to add features instead of just fixing bugs.
+We support both one-time sessions and recurring weekly ones, each with different rules.
 
+Instead of checking the type everywhere with `if` statements, we built a `SessionFactory` that creates the right object based on the data. Both types share the same interface, so the rest of the code stays simple and doesn't need to know the details.
+
+### 4. Strategy Pattern
+
+Users want to sort sessions differently—by closest location, earliest time, or shared major.
+
+We created separate `MatchingStrategy` classes and switch between them based on user preference. This kept the sorting logic clean and made it easy to add new options later.
+
+### 5. Singleton Pattern
+
+Our notification system was sending duplicates when someone had multiple tabs open.
+
+By making the notification service a singleton (using JavaScript module scoping), we ensured only one instance runs. The duplicate alerts stopped immediately.
+
+### 6. Facade Pattern
+
+Components were importing too many different hooks and services, making files cluttered and hard to read.
+
+We created a single `useStudyBuddy(sessionId)` facade hook that provides everything a page needs: session data, actions, and status checks. Component code became much shorter and easier to understand.
+
+### 7. Decorator Pattern
+
+Some sessions are “featured” (official tutoring events) or hosted by “verified” users, needing special badges.
+
+Instead of adding flags all over the code, we wrap session objects with decorators at runtime to add the extra display info. This kept the core model clean.
+
+## III. Impact on Our Student Team Project
+
+These patterns had a huge effect on our work as students with limited time and experience:
+
+- **Fewer Bugs and Less Stress**: Problems were isolated, so changes in one area rarely broke something else.
+- **Easier Teamwork**: We could divide tasks confidently because the patterns created clear boundaries.
+- **Faster Progress**: Adding new features felt like building on solid ground rather than patching a leaky boat.
+- **Better Learning**: Seeing patterns solve real issues made them click in a way textbooks never did.
+
+We spent less time fixing messes and more time making the app actually useful.
+
+## IV. Lessons for a Student Developer
+
+This project showed me that design patterns aren't just for senior engineers or big companies. Even in a student team project with a simple app, they help manage complexity and make code more professional.
+
+Modern tools like React hooks and RxJS make many patterns easier to implement than in older languages. The trick is recognizing when a problem matches a pattern and applying it only where it helps—never forcing it.
+
+## V. Conclusion
+
+Before this, design patterns felt distant and theoretical. Now, having used them to rescue our team project from chaos, I see them as practical tools any developer can use to write better, more maintainable code.
+
+Study Buddy turned out far better than I expected for a project, and I credit much of that to these patterns. They didn't just improve the final product; they made the whole development experience less overwhelming and more rewarding. I'm excited to keep using them as I continue learning and building more projects.
