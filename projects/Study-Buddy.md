@@ -1,9 +1,9 @@
 ---
 layout: project
 type: project
-image: img/study-buddy/dashboard.png
+image: img/studybuddy/landing-page.png
 title: "Study Buddy"
-date: 2025-12-19
+date: 2025-12-1
 published: true
 labels:
   - Next.js
@@ -20,7 +20,7 @@ summary: "Full-stack web app for organizing peer study sessions at UH Mānoa (IC
 Study Buddy is a collaborative web application built to help University of Hawaiʻi at Mānoa ICS students find and organize in-person study sessions in ICSpace. Students can register as "sensei" (knowledgeable in certain courses) or "grasshopper" (seeking help), create study sessions, browse available sessions via a calendar, and join them. The app ensures UH-only access and promotes productive peer learning.
 
 ## My Contributions
-In a team of 6 using Issue-Driven Project Management on GitHub:
+In a team of 3 using Issue-Driven Project Management on GitHub:
 - Designed and implemented user profile management features, including course selection, sensei/grasshopper roles, and profile photo uploads.
 - Integrated Google OAuth 2.0 authentication restricted to @hawaii.edu accounts.
 - Built session creation forms with validation and real-time calendar integration.
@@ -45,22 +45,12 @@ Next.js, React, TypeScript, Bootstrap, Prisma, PostgreSQL, Google OAuth, Playwri
 
 ## Screenshots
 
-<grok-card data-id="304d0e" data-type="image_card"></grok-card>
+![Landing Page After Login](img/studybuddy/landing-after-login-page.png)
 
+*Dashboard after successful login*
 
+![Calendar View](img/studybuddy/calender.png)
 
-<grok-card data-id="d0ce37" data-type="image_card"></grok-card>
+*Calendar showing available study sessions*
 
-![Study Buddy Dashboard](img/study-buddy/dashboard.png
-
-<grok-card data-id="1aaed8" data-type="image_card"></grok-card>
-
-img/study-buddy/dashboard.png
-
-<grok-card data-id="d11ca2" data-type="image_card"></grok-card>
-
-
-*Representative screenshots: collaborative dashboards, session scheduling, and calendar views similar to Study Buddy's interface.*
-
-
-*Representative screenshots of study session dashboards and features (similar to Study Buddy's interface)*
+![Registration Page](img/studybuddy/register-page.png)
