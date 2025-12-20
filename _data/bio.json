@@ -10,7 +10,7 @@
     "location": { "address": "", "postalCode": "96817", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "nguyenbd-code", "url": "http://github.com/nguyenbd-code" },
-      { "network": "linkedin", "username": "linkedin.com/BrandonNguyen", "url": "http://linkedin.com/in/" },
+      { "network": "linkedin", "username": "BrandonNguyen", "url": "http://linkedin.com/in/" },
       { "network": "twitter", "username": "", "url": "http://twitter.com/" },
       { "network": "instagram", "username": "", "url": "http://instagram.com/" }
     ]
