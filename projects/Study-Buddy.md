@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/studybuddy/landing-page.png
+image: img/studybuddy/landing-pagee.png
 title: "Study Buddy"
 date: 2025-12-1
 published: true
