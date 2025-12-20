@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/weather/weatherlogo.png
+image: img/weather/weatherlogo.jpg
 title: "Weather Dashboard"
 date: 2025-6-20
 published: true
@@ -37,7 +37,7 @@ HTML, CSS (Bootstrap), Vanilla JavaScript, OpenWeatherMap API
 
 ## Snapshot
 
-<img class="img-fluid" src="../img/weather/weatherimages.png">
+<img class="img-fluid" src="../img/weather/Weatherimg.png">
 
 ## Code Highlights
 
