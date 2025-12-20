@@ -1,0 +1,15 @@
+img {
+  max-width: 100% !important;
+  height: auto !important;
+  display: block;
+  margin: 20px auto; /* Centers and adds spacing */
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.post-content img,
+article img,
+.content img {
+  max-width: 100% !important;
+  height: auto !important;
+}
