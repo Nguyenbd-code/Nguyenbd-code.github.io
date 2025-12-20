@@ -18,10 +18,13 @@ layout: home
         {% capture label %}{{ site.data.bio.basics.email }}{% endcapture %}
         <p class="mb-1">{% include about/social.html url=url name='envelope' label=label %}</p>
         {% for profile in site.data.bio.basics.profiles %}
-          {% capture url %}{{ profile.url }}{% endcapture %}
-          {% capture name %}{{ profile.network | downcase }}{% endcapture %}
-          {% capture label %}{{ profile.username }}{% endcapture %}
-          <p class="mb-1">{% include about/social.html url=url name=name label=label %}</p>
+          {% assign lower_network = profile.network | downcase %}
+          {% if lower_network != "twitter" and lower_network != "instagram" %}
+            {% capture url %}{{ profile.url }}{% endcapture %}
+            {% capture name %}{{ lower_network }}{% endcapture %}
+            {% capture label %}{{ profile.username }}{% endcapture %}
+            <p class="mb-1">{% include about/social.html url=url name=name label=label %}</p>
+          {% endif %}
         {% endfor %}
       </div>
       <div class="col">
@@ -210,22 +213,13 @@ layout: home
       </div>
     </div>
     {% endif %}
-    {% if site.data.bio.references %}
     <div class="row pt-4 align-items-center">
       <div class="col-lg-3">
         <h1 class="display-6 text-start m-0">References</h1>
       </div>
       <div class="col-lg-9">
-        <p class="m-0">
-          {% for entry in site.data.bio.references %}
-            {{ entry.name }}
-            {% if entry.reference and entry.reference.size > 0 %}
-              <em>{{ entry.reference }}</em>
-            {% endif %}
-          {% endfor %}
-        </p>
+        <p class="m-0">Available upon request</p>
       </div>
     </div>
-    {% endif %}
   </div>
 </div>
