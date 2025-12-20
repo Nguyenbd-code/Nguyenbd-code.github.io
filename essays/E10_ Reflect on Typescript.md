@@ -4,7 +4,7 @@ type: essay
 title: "Exploring TypeScript and the Benefits of WODs"
 # All dates must be YYYY-MM-DD format!
 date: 2025-09-11
-published: true
+published: false
 labels:
   - TypeScript
   - Programming
