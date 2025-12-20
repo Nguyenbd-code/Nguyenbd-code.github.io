@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: Coding Standards
 date: 2025-09-25
-published: true
+published: false
 labels:
   - Software Engineering
   - Learning
