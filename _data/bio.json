@@ -1,65 +1,81 @@
 {
   "basics": {
-    "name": "Brandon Nguyen",
-    "label": "Student",
+    "name": "Brandon Duy Nguyen",
+    "label": "Computer Science Student & IT Consultant",
     "picture": "https://github.com/nguyenbd-code.png",
     "email": "nguyenbd@hawaii.edu",
     "phone": "808-475-5330",
     "website": "https://nguyenbd-code.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Fall, 2026.",
+    "summary": "I am a Computer Science student at the University of Hawaiʻi at Mānoa (B.S., expected December 2026) with hands-on experience in full-stack web development and IT support. I currently work as an IT Consultant at UH Mānoa's Information Technology Center, where I troubleshoot hardware, software, and network issues for students and faculty. I work with Python, Java, C, C++, React, Node.js, and PostgreSQL, and I enjoy building tools that solve real problems. I am actively seeking internship opportunities in software engineering and IT.",
     "location": { "address": "", "postalCode": "96817", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "nguyenbd-code", "url": "http://github.com/nguyenbd-code" },
-      { "network": "linkedin", "username": "BrandonNguyen", "url": "http://linkedin.com/in/" },
-      { "network": "twitter", "username": "", "url": "http://twitter.com/" },
-      { "network": "instagram", "username": "", "url": "http://instagram.com/" }
+      { "network": "linkedin", "username": "brandon-nguyen-b30306326", "url": "http://linkedin.com/in/brandon-nguyen-b30306326" }
     ]
   },
   "interests": [
-    { "name": "3D Design" },
-    { "name": "Animating" },
-    { "name": "Game Design" },
-    { "name": "AI" },
-    { "name": "3D Graphics" }
+    { "name": "Software Engineering" },
+    { "name": "Cybersecurity" },
+    { "name": "AI & Machine Learning" },
+    { "name": "Full-Stack Development" },
+    { "name": "3D Design & Game Development" }
   ],
   "skills": [
     {
-      "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript" ]
+      "name": "Programming Languages",
+      "keywords": [ "Python", "Java", "C", "C++", "TypeScript", "JavaScript" ]
     },
     {
-      "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "name": "Web & Frameworks",
+      "keywords": [ "React", "Next.js", "Node.js", "Bootstrap" ]
+    },
+    {
+      "name": "Databases",
+      "keywords": [ "PostgreSQL", "Prisma ORM" ]
+    },
+    {
+      "name": "Tools & Platforms",
+      "keywords": [ "Git", "GitHub", "Vercel", "MacOS", "Windows", "Linux" ]
+    },
+    {
+      "name": "IT & Support",
+      "keywords": [ "Technical Support", "Hardware Troubleshooting", "Network Troubleshooting", "Account Management", "System Configuration" ]
     }
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Fall, 2026)",
+      "institution": "University of Hawaii at Manoa, Honolulu, HI",
+      "area": "Information & Computer Sciences (expected December 2026)",
       "studyType": "B.S.",
       "startDate": "2022-01-01",
       "endDate": "Present",
       "courses": [
+        "Data Structures & Algorithms",
+        "Software Engineering",
+        "Database Systems",
+        "Computer Networks"
       ]
     }
   ],
   "work": [
     {
-      "company": "UH Manoa IT Help Desk",
-      "position": "Help Desk Consultant",
+      "company": "University of Hawaii at Manoa — Information Technology Center",
+      "position": "IT Consultant",
       "website": "",
       "startDate": "2024-08-01",
       "endDate": "Present",
-      "summary": "Help Desk Consultant",
+      "summary": "Provide first-line technical support to students, faculty, and staff at UH Manoa's ITC building.",
       "highlights": [
-        "Help desk consultant for UH Manoa"
+        "Provide first-line technical support across hardware, software, and network issues in a high-volume university IT environment.",
+        "Diagnose and resolve support tickets efficiently, maintaining service quality and user satisfaction standards.",
+        "Assist with device setup, account management, and system configurations across Windows and macOS platforms.",
+        "Communicate complex technical issues clearly to non-technical users."
       ]
-    },
+    }
   ],
-
   "references": [
     {
-      "name": "N/A"
+      "name": "Available upon request"
     }
   ]
 }
