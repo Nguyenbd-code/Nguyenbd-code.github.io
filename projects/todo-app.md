@@ -38,4 +38,4 @@ HTML, CSS (Bootstrap), Vanilla JavaScript
 
 ## Snapshot
 
-<img class="img-fluid" src="../img/todo/To-do-list.png">
+<img class="img-fluid" src="../img/todo/To-do-list.jpg">
