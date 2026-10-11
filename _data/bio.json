@@ -6,7 +6,7 @@
     "email": "nguyenbd@hawaii.edu",
     "phone": "",
     "website": "https://nguyenbd-code.github.io",
-    "summary": "I am a Computer Science student at the University of Hawaiʻi at Mānoa (B.S., expected December 2026) with hands-on experience in full-stack web development and IT support. I currently work as an IT Consultant at UH Mānoa's Information Technology Center, where I troubleshoot hardware, software, and network issues for students and faculty. I work with Python, Java, C, C++, React, Node.js, and PostgreSQL, and I enjoy building tools that solve real problems. I am actively seeking internship opportunities in software engineering and IT.",
+    "summary": "I am a Computer Science student at the University of Hawaiʻi at Mānoa (B.S., expected December 2026) who builds and runs real web applications. My main project is a full-stack Brown Dust 2 companion site built on Cloudflare Workers and D1 that serves a live player community. I also work as an IT Consultant at UH Mānoa's Information Technology Center, where I troubleshoot hardware, software, and network issues for students and faculty. I work with JavaScript, TypeScript, Python, Java, C, and C++, along with React, Next.js, Node.js, PostgreSQL, and SQLite. I am looking for full-time software engineering roles starting after graduation.",
     "location": { "address": "", "postalCode": "96817", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "nguyenbd-code", "url": "http://github.com/nguyenbd-code" },
