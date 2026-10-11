@@ -31,11 +31,11 @@
     },
     {
       "name": "Databases",
-      "keywords": [ "PostgreSQL", "Prisma ORM" ]
+      "keywords": [ "PostgreSQL", "SQLite", "Cloudflare D1", "Prisma ORM" ]
     },
     {
       "name": "Tools & Platforms",
-      "keywords": [ "Git", "GitHub", "Vercel", "MacOS", "Windows", "Linux" ]
+      "keywords": [ "Git", "GitHub", "Cloudflare Workers", "Wrangler", "Vercel", "MacOS", "Windows", "Linux" ]
     },
     {
       "name": "IT & Support",
