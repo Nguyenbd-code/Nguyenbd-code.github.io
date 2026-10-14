@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Brandon Duy Nguyen",
-    "label": "Computer Science Student & IT Consultant",
+    "label": "Computer Science Student & Software Developer Intern",
     "picture": "https://github.com/nguyenbd-code.png",
     "email": "nguyenbd@hawaii.edu",
     "phone": "",
     "website": "https://nguyenbd-code.github.io",
-    "summary": "I am a Computer Science student at the University of Hawaiʻi at Mānoa (B.S., expected December 2026) who builds and runs real web applications. My main project is a full-stack Brown Dust 2 companion site built on Cloudflare Workers and D1 that serves a live player community. I also work as an IT Consultant at UH Mānoa's Information Technology Center, where I troubleshoot hardware, software, and network issues for students and faculty. I work with JavaScript, TypeScript, Python, Java, C, and C++, along with React, Next.js, Node.js, PostgreSQL, and SQLite. I am looking for full-time software engineering roles starting after graduation.",
+    "summary": "I am a Computer Science student at the University of Hawaiʻi at Mānoa (B.S., expected December 2026) who builds and runs real web applications. My main project is a full-stack Brown Dust 2 companion site built on Cloudflare Workers and D1 that serves a live player community. I also work as an IT Consultant at UH Mānoa's Information Technology Center, where I troubleshoot hardware, software, and network issues for students and faculty. I work with JavaScript, TypeScript, Python, Java, and SQL, along with React, Next.js, Node.js, PostgreSQL, and SQLite. I am looking for full-time software engineering roles starting after graduation.",
     "location": { "address": "", "postalCode": "96817", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "nguyenbd-code", "url": "http://github.com/nguyenbd-code" },
@@ -23,7 +23,7 @@
   "skills": [
     {
       "name": "Programming Languages",
-      "keywords": [ "Python", "Java", "C", "C++", "TypeScript", "JavaScript" ]
+      "keywords": [ "JavaScript", "TypeScript", "Python", "Java", "SQL" ]
     },
     {
       "name": "Web & Frameworks",
@@ -35,7 +35,7 @@
     },
     {
       "name": "Tools & Platforms",
-      "keywords": [ "Git", "GitHub", "Cloudflare Workers", "Wrangler", "Vercel", "MacOS", "Windows", "Linux" ]
+      "keywords": [ "Git", "GitHub", "Cloudflare Workers", "Wrangler", "Vercel", "macOS", "Windows" ]
     },
     {
       "name": "IT & Support",
@@ -44,16 +44,21 @@
   ],
   "education": [
     {
-      "institution": "University of Hawaii at Manoa, Honolulu, HI",
+      "institution": "University of Hawaiʻi at Mānoa, Honolulu, HI",
       "area": "Information & Computer Sciences (expected December 2026)",
       "studyType": "B.S.",
       "startDate": "2022-01-01",
       "endDate": "Present",
       "courses": [
-        "Data Structures & Algorithms",
+        "Computer System Security",
+        "Digital Forensics",
+        "Computer Security & Ethics",
+        "Security and Trust",
+        "Algorithms",
         "Software Engineering",
         "Database Systems",
-        "Computer Networks"
+        "Operating Systems",
+        "Data Networks"
       ]
     }
   ],
@@ -71,17 +76,16 @@
       ]
     },
     {
-      "company": "University of Hawaii at Manoa — Information Technology Center",
+      "company": "University of Hawaiʻi at Mānoa, Information Technology Center",
       "position": "IT Consultant",
       "website": "",
       "startDate": "2024-08-01",
       "endDate": "Present",
-      "summary": "Provide first-line technical support to students, faculty, and staff at UH Manoa's ITC building.",
+      "summary": "First-line technical support for students, faculty, and staff at UH Mānoa's Information Technology Center.",
       "highlights": [
-        "Provide first-line technical support across hardware, software, and network issues in a high-volume university IT environment.",
-        "Diagnose and resolve support tickets efficiently, maintaining service quality and user satisfaction standards.",
-        "Assist with device setup, account management, and system configurations across Windows and macOS platforms.",
-        "Communicate complex technical issues clearly to non-technical users."
+        "Provide first-line support for hardware, software, network, and account issues to students, faculty, and staff in a high-volume university help desk.",
+        "Diagnose and resolve support tickets, and assist with device setup, account management, and system configuration across Windows and macOS.",
+        "Explain technical problems clearly to non-technical users."
       ]
     }
   ],
