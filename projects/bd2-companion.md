@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/bd2/bd2-home.png
+image: img/bd2/bd2-home.jpg
 title: "Brown Dust 2 Companion Site"
 date: 2026-05-11
 published: true
@@ -42,3 +42,9 @@ Cloudflare Workers, Cloudflare D1 (SQLite), JavaScript, HTML, CSS, Wrangler
 ## Links
 
 - [Live Site](https://browndust2-bnkitsu.com)
+
+## Screenshots
+
+<img class="img-fluid" src="../img/bd2/bd2-home.jpg" alt="Brown Dust 2 Companion Site home page">
+
+*Home page with the PvP guide and strategy notes*
